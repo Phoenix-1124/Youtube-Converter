@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Youtube Converter</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></link>
+</head>
+
+<body>
+    <center>
+        <h1>Youtube</h1>
+        <h1>Converter</h1>
+        <form action="/result" method="POST">
+            <h4>Enter The Video URL</h4>
+            <input type="url" name="video_link" placeholder="Enter The URL"/> <br />
+            <input type="submit" value="Convert & Download"/>
+        </form>
+    </center>
+    <hr />
+    <footer>
+        <span>#This Youtube Converter Is Developped By Phoenix.</span><br />
+        <span>Give This A Star On <a href="#">Github</a></span><br />
+        <span>Contact Me On <a href="https://Wa.me/+94711806353">Whatsapp</a></span>
+    </footer>
+</body>
+</html>
